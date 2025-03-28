@@ -24,6 +24,9 @@
 ::-webkit-scrollbar-thumb:hover{
     background:#fff
 }
+
+
+
 body{
     margin:0;
     background:#ebebeb;
@@ -47,30 +50,8 @@ header{
     top:0;
     z-index:10
 }
-header nav{
-    display:flex;
-    align-items:center;
-    justify-content:center
-}
-header nav .nav-btn{
-    display:inline-block;
-    width:32px;
-    height:32px;
-    background-color:#fff;
-    background-repeat:no-repeat;
-    background-size:110% auto;
-    background-position:center;
-    border-radius:50%
-}
-header nav .nav-btn.git{
-    background-image:url(../images/git.png)
-}
-header nav .nav-btn.codepen{
-    background-image:url(../images/codepen.png)
-}
-header nav .nav-btn+.nav-btn{
-    margin-left:10px
-}
+
+
 .brand{
     color:#fff;
     font-size:32px;
@@ -157,7 +138,7 @@ footer a:active,footer a:hover{
     opacity:1
 }
 .btn-close{
-    position:absolute;
+    position:center;
     top:0;right:0;
     z-index:5;
     line-height:20px;
